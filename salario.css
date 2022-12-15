@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(241, 160, 160);
+}
+
+.layout {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    width: 500px;
+    height: 500px;
+    padding: 3rem;
+    margin-top: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    border-radius: .5rem;
+    box-shadow: 0 2px 3px;
+    background-color: #ffffffff;
+}
+
+.cx {
+    background-color: rgb(195, 193, 193);
+    box-shadow: 1px 1px 2px;
+    border: none;
+    margin: 1rem;
+    padding: .5rem;
+    border-radius: .5rem;
+
+}
+
+.res {
+    border-radius: .5rem;
+    padding: .5rem;
+    margin: 1rem;
+    box-shadow: 1px 1px 2px;
+    border: none;
+}
+
+.display {
+    padding: 0.5rem;
+    height: 120px;
+    width: 450px;
+    border-radius: 5px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    background-color: #ffffff23;
+    
+}
+
+#comissao,
+#liquido,
+#sal_atual {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
